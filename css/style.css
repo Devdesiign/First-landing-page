@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+#container {
+    margin: 10px;
+
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    right: 12%;
+}
+
+nav {
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    left: 12%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    color: #444;
+    padding: 8px;
+}
+
+nav ul li a:hover {
+    border: solid 2px #444;
+}
+
+.active {
+    color: #fefefe;
+    background-color: #444;
+}

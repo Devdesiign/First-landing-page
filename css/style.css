@@ -108,12 +108,12 @@ nav ul li a:hover {
 .first-color,
 .second-color,
 .third-color {
-    
+
     margin-right: 20px;
     border-radius: 4px;
-    color:rgba(26, 30, 41, 0.9);
+    color: rgba(26, 30, 41, 0.9);
     text-align: center;
-    
+
 }
 
 .first-color {
@@ -200,4 +200,9 @@ footer {
     color: #222;
     background-color: rgb(230, 230, 230);
     padding: 12px;
+}
+
+.hero-link {
+    text-decoration: none;
+    color: rgba(0, 0, 255, .7);
 }

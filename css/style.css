@@ -1,10 +1,21 @@
 body {
     margin: 0;
     width: 100%;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Nunito',
+        sans-serif;
 }
 
 #container {
-    margin: 0 12px;
+    margin: 8px;
 }
 
 header {
@@ -16,6 +27,7 @@ header {
     display: inline-block;
     position: relative;
     right: 12%;
+    text-transform: uppercase;
 }
 
 nav {
@@ -34,8 +46,10 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: small;
-    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(68, 68, 68);
+    opacity: 0.5;
 }
 
 nav ul li a:hover {
@@ -44,33 +58,146 @@ nav ul li a:hover {
 
 #hero-page {
     background: url("../images/Hero-fetch-2.PNG") no-repeat bottom;
-    width: 90%;
+    width: 97%;
     text-align: center;
-    margin-left: 0px;
-    height: 560px;
-    padding: 48px
+    height: 600px;
+    padding: 24px;
+
 }
 
 #hero-page h1 {
     font-size: 48px;
-    margin: 0;
-    color: aliceblue;
-}
+    margin-bottom: 24px;
 
-#hero-page .nice {
-    color: blue;
 }
 
 #hero-page p {
     font-size: 16px;
     margin-bottom: 36px;
-    color: aliceblue;
+
 }
 
-#hero-page .button {
+.nice {
+    color: rgb(0, 214, 143);
+}
+
+.button {
     padding: 16px;
     border-radius: 4px;
-    background-color: aliceblue;
-    color: #444;
+    color: aliceblue;
+    background-color: rgba(0, 0, 255, 0.7);
     text-decoration: none;
+    font-weight: 600;
+}
+
+#ads-icon-container a {
+    text-decoration: none;
+}
+
+#ads-icon-container a img {
+    margin-right: 24px;
+
+}
+
+.small-container {
+    display: inline-block;
+    width: 180px;
+
+}
+
+.first-color,
+.second-color,
+.third-color {
+    
+    margin-right: 20px;
+    border-radius: 4px;
+    color:rgba(26, 30, 41, 0.9);
+    text-align: center;
+    
+}
+
+.first-color {
+    background-color: rgba(127, 246, 255, 0.5);
+}
+
+.second-color {
+    background-color: rgba(127, 255, 212, 0.5);
+}
+
+.third-color {
+    background-color: rgba(172, 127, 255, 0.5);
+}
+
+.left-container {
+    display: inline-block;
+    position: relative;
+    margin-right: 100px;
+
+}
+
+.right-container {
+    display: inline-block;
+    position: relative;
+    left: 12%;
+}
+
+.ad-line {
+    padding: 32px;
+    text-align: center;
+    margin: 24px 0 48px;
+
+}
+
+
+.left-container {
+    text-align: left;
+}
+
+.first-outline,
+.second-outline,
+.third-outline {
+    text-align: left;
+    margin-right: 20px;
+}
+
+.small-container h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.first-outline {
+    background-color: rgb(127, 246, 255);
+    height: 2px;
+}
+
+.second-outline {
+    background-color: aquamarine;
+    height: 2px;
+}
+
+.third-outline {
+    background-color: rgb(172, 127, 255);
+    height: 2px;
+}
+
+.third-outline p {
+    height: 64px;
+}
+
+
+
+.second .left-container h2 {
+    font-size: 36px;
+    margin-bottom: 48px;
+
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    color: #222;
+    background-color: rgb(230, 230, 230);
+    padding: 12px;
 }
